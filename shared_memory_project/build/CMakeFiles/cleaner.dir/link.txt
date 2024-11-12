@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/cleaner.dir/src/cleaner.c.o -o cleaner 

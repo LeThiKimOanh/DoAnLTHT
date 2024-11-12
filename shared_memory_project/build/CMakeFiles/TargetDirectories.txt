@@ -1,0 +1,6 @@
+/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles/writer.dir
+/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles/reader.dir
+/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles/editor.dir
+/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles/cleaner.dir
+/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles/edit_cache.dir
+/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles/rebuild_cache.dir
