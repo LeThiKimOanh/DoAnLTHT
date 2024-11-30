@@ -16,6 +16,13 @@
 #define SHM_KEY 12345
 #define SHM_SIZE 1024
 #define SEM_NAME "/shm_semaphore"
+#define QUEUE_CAPACITY 10  // Số lượng phần tử tối đa trong hàng đợi
+typedef struct {
+    int front;
+    int rear;
+    int size;
+    char queue[QUEUE_CAPACITY][SHM_SIZE];  // Mỗi phần tử là một chuỗi ký tự
+} SharedQueue;
 
 // Hàm hiển thị thời gian hiện tại dưới dạng chuỗi
 void print_current_time() {

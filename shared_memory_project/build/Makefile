@@ -168,6 +168,251 @@ cleaner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cleaner.dir/build.make CMakeFiles/cleaner.dir/build
 .PHONY : cleaner/fast
 
+#=============================================================================
+# Target rules for targets named status
+
+# Build rule for target.
+status: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 status
+.PHONY : status
+
+# fast build rule for target.
+status/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/status.dir/build.make CMakeFiles/status.dir/build
+.PHONY : status/fast
+
+#=============================================================================
+# Target rules for targets named overview
+
+# Build rule for target.
+overview: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 overview
+.PHONY : overview
+
+# fast build rule for target.
+overview/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/build
+.PHONY : overview/fast
+
+#=============================================================================
+# Target rules for targets named reset
+
+# Build rule for target.
+reset: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reset
+.PHONY : reset
+
+# fast build rule for target.
+reset/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset.dir/build.make CMakeFiles/reset.dir/build
+.PHONY : reset/fast
+
+#=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+.PHONY : queue/fast
+
+#=============================================================================
+# Target rules for targets named queue_reader
+
+# Build rule for target.
+queue_reader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue_reader
+.PHONY : queue_reader
+
+# fast build rule for target.
+queue_reader/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_reader.dir/build.make CMakeFiles/queue_reader.dir/build
+.PHONY : queue_reader/fast
+
+#=============================================================================
+# Target rules for targets named initializer
+
+# Build rule for target.
+initializer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 initializer
+.PHONY : initializer
+
+# fast build rule for target.
+initializer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer.dir/build.make CMakeFiles/initializer.dir/build
+.PHONY : initializer/fast
+
+#=============================================================================
+# Target rules for targets named info
+
+# Build rule for target.
+info: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 info
+.PHONY : info
+
+# fast build rule for target.
+info/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/build
+.PHONY : info/fast
+
+#=============================================================================
+# Target rules for targets named viewer
+
+# Build rule for target.
+viewer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 viewer
+.PHONY : viewer
+
+# fast build rule for target.
+viewer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/build
+.PHONY : viewer/fast
+
+#=============================================================================
+# Target rules for targets named couter
+
+# Build rule for target.
+couter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 couter
+.PHONY : couter
+
+# fast build rule for target.
+couter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/couter.dir/build.make CMakeFiles/couter.dir/build
+.PHONY : couter/fast
+
+#=============================================================================
+# Target rules for targets named duplicator
+
+# Build rule for target.
+duplicator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 duplicator
+.PHONY : duplicator
+
+# fast build rule for target.
+duplicator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/duplicator.dir/build.make CMakeFiles/duplicator.dir/build
+.PHONY : duplicator/fast
+
+#=============================================================================
+# Target rules for targets named monitor
+
+# Build rule for target.
+monitor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor
+.PHONY : monitor
+
+# fast build rule for target.
+monitor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/build
+.PHONY : monitor/fast
+
+#=============================================================================
+# Target rules for targets named locker
+
+# Build rule for target.
+locker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 locker
+.PHONY : locker
+
+# fast build rule for target.
+locker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/locker.dir/build.make CMakeFiles/locker.dir/build
+.PHONY : locker/fast
+
+#=============================================================================
+# Target rules for targets named deleterByKey
+
+# Build rule for target.
+deleterByKey: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deleterByKey
+.PHONY : deleterByKey
+
+# fast build rule for target.
+deleterByKey/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deleterByKey.dir/build.make CMakeFiles/deleterByKey.dir/build
+.PHONY : deleterByKey/fast
+
+#=============================================================================
+# Target rules for targets named backup
+
+# Build rule for target.
+backup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 backup
+.PHONY : backup
+
+# fast build rule for target.
+backup/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backup.dir/build.make CMakeFiles/backup.dir/build
+.PHONY : backup/fast
+
+#=============================================================================
+# Target rules for targets named restorer
+
+# Build rule for target.
+restorer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 restorer
+.PHONY : restorer
+
+# fast build rule for target.
+restorer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/restorer.dir/build.make CMakeFiles/restorer.dir/build
+.PHONY : restorer/fast
+
+#=============================================================================
+# Target rules for targets named searcher
+
+# Build rule for target.
+searcher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 searcher
+.PHONY : searcher
+
+# fast build rule for target.
+searcher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searcher.dir/build.make CMakeFiles/searcher.dir/build
+.PHONY : searcher/fast
+
+#=============================================================================
+# Target rules for targets named initializerQueue
+
+# Build rule for target.
+initializerQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 initializerQueue
+.PHONY : initializerQueue
+
+# fast build rule for target.
+initializerQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializerQueue.dir/build.make CMakeFiles/initializerQueue.dir/build
+.PHONY : initializerQueue/fast
+
+src/backup.o: src/backup.c.o
+.PHONY : src/backup.o
+
+# target to build an object file
+src/backup.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backup.dir/build.make CMakeFiles/backup.dir/src/backup.c.o
+.PHONY : src/backup.c.o
+
+src/backup.i: src/backup.c.i
+.PHONY : src/backup.i
+
+# target to preprocess a source file
+src/backup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backup.dir/build.make CMakeFiles/backup.dir/src/backup.c.i
+.PHONY : src/backup.c.i
+
+src/backup.s: src/backup.c.s
+.PHONY : src/backup.s
+
+# target to generate assembly for a file
+src/backup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backup.dir/build.make CMakeFiles/backup.dir/src/backup.c.s
+.PHONY : src/backup.c.s
+
 src/cleaner.o: src/cleaner.c.o
 .PHONY : src/cleaner.o
 
@@ -191,6 +436,78 @@ src/cleaner.s: src/cleaner.c.s
 src/cleaner.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cleaner.dir/build.make CMakeFiles/cleaner.dir/src/cleaner.c.s
 .PHONY : src/cleaner.c.s
+
+src/couter.o: src/couter.c.o
+.PHONY : src/couter.o
+
+# target to build an object file
+src/couter.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/couter.dir/build.make CMakeFiles/couter.dir/src/couter.c.o
+.PHONY : src/couter.c.o
+
+src/couter.i: src/couter.c.i
+.PHONY : src/couter.i
+
+# target to preprocess a source file
+src/couter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/couter.dir/build.make CMakeFiles/couter.dir/src/couter.c.i
+.PHONY : src/couter.c.i
+
+src/couter.s: src/couter.c.s
+.PHONY : src/couter.s
+
+# target to generate assembly for a file
+src/couter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/couter.dir/build.make CMakeFiles/couter.dir/src/couter.c.s
+.PHONY : src/couter.c.s
+
+src/deleterByKey.o: src/deleterByKey.c.o
+.PHONY : src/deleterByKey.o
+
+# target to build an object file
+src/deleterByKey.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deleterByKey.dir/build.make CMakeFiles/deleterByKey.dir/src/deleterByKey.c.o
+.PHONY : src/deleterByKey.c.o
+
+src/deleterByKey.i: src/deleterByKey.c.i
+.PHONY : src/deleterByKey.i
+
+# target to preprocess a source file
+src/deleterByKey.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deleterByKey.dir/build.make CMakeFiles/deleterByKey.dir/src/deleterByKey.c.i
+.PHONY : src/deleterByKey.c.i
+
+src/deleterByKey.s: src/deleterByKey.c.s
+.PHONY : src/deleterByKey.s
+
+# target to generate assembly for a file
+src/deleterByKey.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deleterByKey.dir/build.make CMakeFiles/deleterByKey.dir/src/deleterByKey.c.s
+.PHONY : src/deleterByKey.c.s
+
+src/duplicator.o: src/duplicator.c.o
+.PHONY : src/duplicator.o
+
+# target to build an object file
+src/duplicator.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/duplicator.dir/build.make CMakeFiles/duplicator.dir/src/duplicator.c.o
+.PHONY : src/duplicator.c.o
+
+src/duplicator.i: src/duplicator.c.i
+.PHONY : src/duplicator.i
+
+# target to preprocess a source file
+src/duplicator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/duplicator.dir/build.make CMakeFiles/duplicator.dir/src/duplicator.c.i
+.PHONY : src/duplicator.c.i
+
+src/duplicator.s: src/duplicator.c.s
+.PHONY : src/duplicator.s
+
+# target to generate assembly for a file
+src/duplicator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/duplicator.dir/build.make CMakeFiles/duplicator.dir/src/duplicator.c.s
+.PHONY : src/duplicator.c.s
 
 src/editor.o: src/editor.c.o
 .PHONY : src/editor.o
@@ -216,6 +533,198 @@ src/editor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editor.dir/build.make CMakeFiles/editor.dir/src/editor.c.s
 .PHONY : src/editor.c.s
 
+src/info.o: src/info.c.o
+.PHONY : src/info.o
+
+# target to build an object file
+src/info.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/src/info.c.o
+.PHONY : src/info.c.o
+
+src/info.i: src/info.c.i
+.PHONY : src/info.i
+
+# target to preprocess a source file
+src/info.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/src/info.c.i
+.PHONY : src/info.c.i
+
+src/info.s: src/info.c.s
+.PHONY : src/info.s
+
+# target to generate assembly for a file
+src/info.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/src/info.c.s
+.PHONY : src/info.c.s
+
+src/initializer.o: src/initializer.c.o
+.PHONY : src/initializer.o
+
+# target to build an object file
+src/initializer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer.dir/build.make CMakeFiles/initializer.dir/src/initializer.c.o
+.PHONY : src/initializer.c.o
+
+src/initializer.i: src/initializer.c.i
+.PHONY : src/initializer.i
+
+# target to preprocess a source file
+src/initializer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer.dir/build.make CMakeFiles/initializer.dir/src/initializer.c.i
+.PHONY : src/initializer.c.i
+
+src/initializer.s: src/initializer.c.s
+.PHONY : src/initializer.s
+
+# target to generate assembly for a file
+src/initializer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer.dir/build.make CMakeFiles/initializer.dir/src/initializer.c.s
+.PHONY : src/initializer.c.s
+
+src/initializerQueue.o: src/initializerQueue.c.o
+.PHONY : src/initializerQueue.o
+
+# target to build an object file
+src/initializerQueue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializerQueue.dir/build.make CMakeFiles/initializerQueue.dir/src/initializerQueue.c.o
+.PHONY : src/initializerQueue.c.o
+
+src/initializerQueue.i: src/initializerQueue.c.i
+.PHONY : src/initializerQueue.i
+
+# target to preprocess a source file
+src/initializerQueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializerQueue.dir/build.make CMakeFiles/initializerQueue.dir/src/initializerQueue.c.i
+.PHONY : src/initializerQueue.c.i
+
+src/initializerQueue.s: src/initializerQueue.c.s
+.PHONY : src/initializerQueue.s
+
+# target to generate assembly for a file
+src/initializerQueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializerQueue.dir/build.make CMakeFiles/initializerQueue.dir/src/initializerQueue.c.s
+.PHONY : src/initializerQueue.c.s
+
+src/locker.o: src/locker.c.o
+.PHONY : src/locker.o
+
+# target to build an object file
+src/locker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/locker.dir/build.make CMakeFiles/locker.dir/src/locker.c.o
+.PHONY : src/locker.c.o
+
+src/locker.i: src/locker.c.i
+.PHONY : src/locker.i
+
+# target to preprocess a source file
+src/locker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/locker.dir/build.make CMakeFiles/locker.dir/src/locker.c.i
+.PHONY : src/locker.c.i
+
+src/locker.s: src/locker.c.s
+.PHONY : src/locker.s
+
+# target to generate assembly for a file
+src/locker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/locker.dir/build.make CMakeFiles/locker.dir/src/locker.c.s
+.PHONY : src/locker.c.s
+
+src/monitor.o: src/monitor.c.o
+.PHONY : src/monitor.o
+
+# target to build an object file
+src/monitor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/src/monitor.c.o
+.PHONY : src/monitor.c.o
+
+src/monitor.i: src/monitor.c.i
+.PHONY : src/monitor.i
+
+# target to preprocess a source file
+src/monitor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/src/monitor.c.i
+.PHONY : src/monitor.c.i
+
+src/monitor.s: src/monitor.c.s
+.PHONY : src/monitor.s
+
+# target to generate assembly for a file
+src/monitor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/src/monitor.c.s
+.PHONY : src/monitor.c.s
+
+src/overview.o: src/overview.c.o
+.PHONY : src/overview.o
+
+# target to build an object file
+src/overview.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/src/overview.c.o
+.PHONY : src/overview.c.o
+
+src/overview.i: src/overview.c.i
+.PHONY : src/overview.i
+
+# target to preprocess a source file
+src/overview.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/src/overview.c.i
+.PHONY : src/overview.c.i
+
+src/overview.s: src/overview.c.s
+.PHONY : src/overview.s
+
+# target to generate assembly for a file
+src/overview.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/src/overview.c.s
+.PHONY : src/overview.c.s
+
+src/queue.o: src/queue.c.o
+.PHONY : src/queue.o
+
+# target to build an object file
+src/queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/src/queue.c.o
+.PHONY : src/queue.c.o
+
+src/queue.i: src/queue.c.i
+.PHONY : src/queue.i
+
+# target to preprocess a source file
+src/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/src/queue.c.i
+.PHONY : src/queue.c.i
+
+src/queue.s: src/queue.c.s
+.PHONY : src/queue.s
+
+# target to generate assembly for a file
+src/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/src/queue.c.s
+.PHONY : src/queue.c.s
+
+src/queue_reader.o: src/queue_reader.c.o
+.PHONY : src/queue_reader.o
+
+# target to build an object file
+src/queue_reader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_reader.dir/build.make CMakeFiles/queue_reader.dir/src/queue_reader.c.o
+.PHONY : src/queue_reader.c.o
+
+src/queue_reader.i: src/queue_reader.c.i
+.PHONY : src/queue_reader.i
+
+# target to preprocess a source file
+src/queue_reader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_reader.dir/build.make CMakeFiles/queue_reader.dir/src/queue_reader.c.i
+.PHONY : src/queue_reader.c.i
+
+src/queue_reader.s: src/queue_reader.c.s
+.PHONY : src/queue_reader.s
+
+# target to generate assembly for a file
+src/queue_reader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_reader.dir/build.make CMakeFiles/queue_reader.dir/src/queue_reader.c.s
+.PHONY : src/queue_reader.c.s
+
 src/reader.o: src/reader.c.o
 .PHONY : src/reader.o
 
@@ -239,6 +748,126 @@ src/reader.s: src/reader.c.s
 src/reader.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/src/reader.c.s
 .PHONY : src/reader.c.s
+
+src/reset.o: src/reset.c.o
+.PHONY : src/reset.o
+
+# target to build an object file
+src/reset.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset.dir/build.make CMakeFiles/reset.dir/src/reset.c.o
+.PHONY : src/reset.c.o
+
+src/reset.i: src/reset.c.i
+.PHONY : src/reset.i
+
+# target to preprocess a source file
+src/reset.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset.dir/build.make CMakeFiles/reset.dir/src/reset.c.i
+.PHONY : src/reset.c.i
+
+src/reset.s: src/reset.c.s
+.PHONY : src/reset.s
+
+# target to generate assembly for a file
+src/reset.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset.dir/build.make CMakeFiles/reset.dir/src/reset.c.s
+.PHONY : src/reset.c.s
+
+src/restorer.o: src/restorer.c.o
+.PHONY : src/restorer.o
+
+# target to build an object file
+src/restorer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/restorer.dir/build.make CMakeFiles/restorer.dir/src/restorer.c.o
+.PHONY : src/restorer.c.o
+
+src/restorer.i: src/restorer.c.i
+.PHONY : src/restorer.i
+
+# target to preprocess a source file
+src/restorer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/restorer.dir/build.make CMakeFiles/restorer.dir/src/restorer.c.i
+.PHONY : src/restorer.c.i
+
+src/restorer.s: src/restorer.c.s
+.PHONY : src/restorer.s
+
+# target to generate assembly for a file
+src/restorer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/restorer.dir/build.make CMakeFiles/restorer.dir/src/restorer.c.s
+.PHONY : src/restorer.c.s
+
+src/searcher.o: src/searcher.c.o
+.PHONY : src/searcher.o
+
+# target to build an object file
+src/searcher.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searcher.dir/build.make CMakeFiles/searcher.dir/src/searcher.c.o
+.PHONY : src/searcher.c.o
+
+src/searcher.i: src/searcher.c.i
+.PHONY : src/searcher.i
+
+# target to preprocess a source file
+src/searcher.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searcher.dir/build.make CMakeFiles/searcher.dir/src/searcher.c.i
+.PHONY : src/searcher.c.i
+
+src/searcher.s: src/searcher.c.s
+.PHONY : src/searcher.s
+
+# target to generate assembly for a file
+src/searcher.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searcher.dir/build.make CMakeFiles/searcher.dir/src/searcher.c.s
+.PHONY : src/searcher.c.s
+
+src/status.o: src/status.c.o
+.PHONY : src/status.o
+
+# target to build an object file
+src/status.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/status.dir/build.make CMakeFiles/status.dir/src/status.c.o
+.PHONY : src/status.c.o
+
+src/status.i: src/status.c.i
+.PHONY : src/status.i
+
+# target to preprocess a source file
+src/status.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/status.dir/build.make CMakeFiles/status.dir/src/status.c.i
+.PHONY : src/status.c.i
+
+src/status.s: src/status.c.s
+.PHONY : src/status.s
+
+# target to generate assembly for a file
+src/status.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/status.dir/build.make CMakeFiles/status.dir/src/status.c.s
+.PHONY : src/status.c.s
+
+src/viewer.o: src/viewer.c.o
+.PHONY : src/viewer.o
+
+# target to build an object file
+src/viewer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/viewer.c.o
+.PHONY : src/viewer.c.o
+
+src/viewer.i: src/viewer.c.i
+.PHONY : src/viewer.i
+
+# target to preprocess a source file
+src/viewer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/viewer.c.i
+.PHONY : src/viewer.c.i
+
+src/viewer.s: src/viewer.c.s
+.PHONY : src/viewer.s
+
+# target to generate assembly for a file
+src/viewer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/viewer.c.s
+.PHONY : src/viewer.c.s
 
 src/writer.o: src/writer.c.o
 .PHONY : src/writer.o
@@ -272,19 +901,87 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... backup"
 	@echo "... cleaner"
+	@echo "... couter"
+	@echo "... deleterByKey"
+	@echo "... duplicator"
 	@echo "... editor"
+	@echo "... info"
+	@echo "... initializer"
+	@echo "... initializerQueue"
+	@echo "... locker"
+	@echo "... monitor"
+	@echo "... overview"
+	@echo "... queue"
+	@echo "... queue_reader"
 	@echo "... reader"
+	@echo "... reset"
+	@echo "... restorer"
+	@echo "... searcher"
+	@echo "... status"
+	@echo "... viewer"
 	@echo "... writer"
+	@echo "... src/backup.o"
+	@echo "... src/backup.i"
+	@echo "... src/backup.s"
 	@echo "... src/cleaner.o"
 	@echo "... src/cleaner.i"
 	@echo "... src/cleaner.s"
+	@echo "... src/couter.o"
+	@echo "... src/couter.i"
+	@echo "... src/couter.s"
+	@echo "... src/deleterByKey.o"
+	@echo "... src/deleterByKey.i"
+	@echo "... src/deleterByKey.s"
+	@echo "... src/duplicator.o"
+	@echo "... src/duplicator.i"
+	@echo "... src/duplicator.s"
 	@echo "... src/editor.o"
 	@echo "... src/editor.i"
 	@echo "... src/editor.s"
+	@echo "... src/info.o"
+	@echo "... src/info.i"
+	@echo "... src/info.s"
+	@echo "... src/initializer.o"
+	@echo "... src/initializer.i"
+	@echo "... src/initializer.s"
+	@echo "... src/initializerQueue.o"
+	@echo "... src/initializerQueue.i"
+	@echo "... src/initializerQueue.s"
+	@echo "... src/locker.o"
+	@echo "... src/locker.i"
+	@echo "... src/locker.s"
+	@echo "... src/monitor.o"
+	@echo "... src/monitor.i"
+	@echo "... src/monitor.s"
+	@echo "... src/overview.o"
+	@echo "... src/overview.i"
+	@echo "... src/overview.s"
+	@echo "... src/queue.o"
+	@echo "... src/queue.i"
+	@echo "... src/queue.s"
+	@echo "... src/queue_reader.o"
+	@echo "... src/queue_reader.i"
+	@echo "... src/queue_reader.s"
 	@echo "... src/reader.o"
 	@echo "... src/reader.i"
 	@echo "... src/reader.s"
+	@echo "... src/reset.o"
+	@echo "... src/reset.i"
+	@echo "... src/reset.s"
+	@echo "... src/restorer.o"
+	@echo "... src/restorer.i"
+	@echo "... src/restorer.s"
+	@echo "... src/searcher.o"
+	@echo "... src/searcher.i"
+	@echo "... src/searcher.s"
+	@echo "... src/status.o"
+	@echo "... src/status.i"
+	@echo "... src/status.s"
+	@echo "... src/viewer.o"
+	@echo "... src/viewer.i"
+	@echo "... src/viewer.s"
 	@echo "... src/writer.o"
 	@echo "... src/writer.i"
 	@echo "... src/writer.s"

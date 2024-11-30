@@ -67,6 +67,23 @@ all: CMakeFiles/writer.dir/all
 all: CMakeFiles/reader.dir/all
 all: CMakeFiles/editor.dir/all
 all: CMakeFiles/cleaner.dir/all
+all: CMakeFiles/status.dir/all
+all: CMakeFiles/overview.dir/all
+all: CMakeFiles/reset.dir/all
+all: CMakeFiles/queue.dir/all
+all: CMakeFiles/queue_reader.dir/all
+all: CMakeFiles/initializer.dir/all
+all: CMakeFiles/info.dir/all
+all: CMakeFiles/viewer.dir/all
+all: CMakeFiles/couter.dir/all
+all: CMakeFiles/duplicator.dir/all
+all: CMakeFiles/monitor.dir/all
+all: CMakeFiles/locker.dir/all
+all: CMakeFiles/deleterByKey.dir/all
+all: CMakeFiles/backup.dir/all
+all: CMakeFiles/restorer.dir/all
+all: CMakeFiles/searcher.dir/all
+all: CMakeFiles/initializerQueue.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +95,23 @@ clean: CMakeFiles/writer.dir/clean
 clean: CMakeFiles/reader.dir/clean
 clean: CMakeFiles/editor.dir/clean
 clean: CMakeFiles/cleaner.dir/clean
+clean: CMakeFiles/status.dir/clean
+clean: CMakeFiles/overview.dir/clean
+clean: CMakeFiles/reset.dir/clean
+clean: CMakeFiles/queue.dir/clean
+clean: CMakeFiles/queue_reader.dir/clean
+clean: CMakeFiles/initializer.dir/clean
+clean: CMakeFiles/info.dir/clean
+clean: CMakeFiles/viewer.dir/clean
+clean: CMakeFiles/couter.dir/clean
+clean: CMakeFiles/duplicator.dir/clean
+clean: CMakeFiles/monitor.dir/clean
+clean: CMakeFiles/locker.dir/clean
+clean: CMakeFiles/deleterByKey.dir/clean
+clean: CMakeFiles/backup.dir/clean
+clean: CMakeFiles/restorer.dir/clean
+clean: CMakeFiles/searcher.dir/clean
+clean: CMakeFiles/initializerQueue.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -87,7 +121,7 @@ clean: CMakeFiles/cleaner.dir/clean
 CMakeFiles/writer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=7,8 "Built target writer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=41,42 "Built target writer"
 .PHONY : CMakeFiles/writer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,7 +147,7 @@ CMakeFiles/writer.dir/clean:
 CMakeFiles/reader.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader.dir/build.make CMakeFiles/reader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=5,6 "Built target reader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=29,30 "Built target reader"
 .PHONY : CMakeFiles/reader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +173,7 @@ CMakeFiles/reader.dir/clean:
 CMakeFiles/editor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editor.dir/build.make CMakeFiles/editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editor.dir/build.make CMakeFiles/editor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=3,4 "Built target editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=11,12 "Built target editor"
 .PHONY : CMakeFiles/editor.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +199,7 @@ CMakeFiles/editor.dir/clean:
 CMakeFiles/cleaner.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cleaner.dir/build.make CMakeFiles/cleaner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cleaner.dir/build.make CMakeFiles/cleaner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=1,2 "Built target cleaner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=3,4 "Built target cleaner"
 .PHONY : CMakeFiles/cleaner.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,6 +217,448 @@ cleaner: CMakeFiles/cleaner.dir/rule
 CMakeFiles/cleaner.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cleaner.dir/build.make CMakeFiles/cleaner.dir/clean
 .PHONY : CMakeFiles/cleaner.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/status.dir
+
+# All Build rule for target.
+CMakeFiles/status.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/status.dir/build.make CMakeFiles/status.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/status.dir/build.make CMakeFiles/status.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=37,38 "Built target status"
+.PHONY : CMakeFiles/status.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/status.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/status.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/status.dir/rule
+
+# Convenience name for target.
+status: CMakeFiles/status.dir/rule
+.PHONY : status
+
+# clean rule for target.
+CMakeFiles/status.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/status.dir/build.make CMakeFiles/status.dir/clean
+.PHONY : CMakeFiles/status.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/overview.dir
+
+# All Build rule for target.
+CMakeFiles/overview.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=23,24 "Built target overview"
+.PHONY : CMakeFiles/overview.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/overview.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/overview.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/overview.dir/rule
+
+# Convenience name for target.
+overview: CMakeFiles/overview.dir/rule
+.PHONY : overview
+
+# clean rule for target.
+CMakeFiles/overview.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/overview.dir/build.make CMakeFiles/overview.dir/clean
+.PHONY : CMakeFiles/overview.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reset.dir
+
+# All Build rule for target.
+CMakeFiles/reset.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset.dir/build.make CMakeFiles/reset.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset.dir/build.make CMakeFiles/reset.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=31,32 "Built target reset"
+.PHONY : CMakeFiles/reset.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reset.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reset.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/reset.dir/rule
+
+# Convenience name for target.
+reset: CMakeFiles/reset.dir/rule
+.PHONY : reset
+
+# clean rule for target.
+CMakeFiles/reset.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reset.dir/build.make CMakeFiles/reset.dir/clean
+.PHONY : CMakeFiles/reset.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queue.dir
+
+# All Build rule for target.
+CMakeFiles/queue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=25,26 "Built target queue"
+.PHONY : CMakeFiles/queue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/queue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/queue.dir/rule
+
+# Convenience name for target.
+queue: CMakeFiles/queue.dir/rule
+.PHONY : queue
+
+# clean rule for target.
+CMakeFiles/queue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/clean
+.PHONY : CMakeFiles/queue.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queue_reader.dir
+
+# All Build rule for target.
+CMakeFiles/queue_reader.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_reader.dir/build.make CMakeFiles/queue_reader.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_reader.dir/build.make CMakeFiles/queue_reader.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=27,28 "Built target queue_reader"
+.PHONY : CMakeFiles/queue_reader.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queue_reader.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/queue_reader.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/queue_reader.dir/rule
+
+# Convenience name for target.
+queue_reader: CMakeFiles/queue_reader.dir/rule
+.PHONY : queue_reader
+
+# clean rule for target.
+CMakeFiles/queue_reader.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue_reader.dir/build.make CMakeFiles/queue_reader.dir/clean
+.PHONY : CMakeFiles/queue_reader.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/initializer.dir
+
+# All Build rule for target.
+CMakeFiles/initializer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer.dir/build.make CMakeFiles/initializer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer.dir/build.make CMakeFiles/initializer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=15,16 "Built target initializer"
+.PHONY : CMakeFiles/initializer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/initializer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/initializer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/initializer.dir/rule
+
+# Convenience name for target.
+initializer: CMakeFiles/initializer.dir/rule
+.PHONY : initializer
+
+# clean rule for target.
+CMakeFiles/initializer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializer.dir/build.make CMakeFiles/initializer.dir/clean
+.PHONY : CMakeFiles/initializer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/info.dir
+
+# All Build rule for target.
+CMakeFiles/info.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=13,14 "Built target info"
+.PHONY : CMakeFiles/info.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/info.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/info.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/info.dir/rule
+
+# Convenience name for target.
+info: CMakeFiles/info.dir/rule
+.PHONY : info
+
+# clean rule for target.
+CMakeFiles/info.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/info.dir/build.make CMakeFiles/info.dir/clean
+.PHONY : CMakeFiles/info.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/viewer.dir
+
+# All Build rule for target.
+CMakeFiles/viewer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=39,40 "Built target viewer"
+.PHONY : CMakeFiles/viewer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/viewer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/viewer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/viewer.dir/rule
+
+# Convenience name for target.
+viewer: CMakeFiles/viewer.dir/rule
+.PHONY : viewer
+
+# clean rule for target.
+CMakeFiles/viewer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/clean
+.PHONY : CMakeFiles/viewer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/couter.dir
+
+# All Build rule for target.
+CMakeFiles/couter.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/couter.dir/build.make CMakeFiles/couter.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/couter.dir/build.make CMakeFiles/couter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=5,6 "Built target couter"
+.PHONY : CMakeFiles/couter.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/couter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/couter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/couter.dir/rule
+
+# Convenience name for target.
+couter: CMakeFiles/couter.dir/rule
+.PHONY : couter
+
+# clean rule for target.
+CMakeFiles/couter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/couter.dir/build.make CMakeFiles/couter.dir/clean
+.PHONY : CMakeFiles/couter.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/duplicator.dir
+
+# All Build rule for target.
+CMakeFiles/duplicator.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/duplicator.dir/build.make CMakeFiles/duplicator.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/duplicator.dir/build.make CMakeFiles/duplicator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=9,10 "Built target duplicator"
+.PHONY : CMakeFiles/duplicator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/duplicator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/duplicator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/duplicator.dir/rule
+
+# Convenience name for target.
+duplicator: CMakeFiles/duplicator.dir/rule
+.PHONY : duplicator
+
+# clean rule for target.
+CMakeFiles/duplicator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/duplicator.dir/build.make CMakeFiles/duplicator.dir/clean
+.PHONY : CMakeFiles/duplicator.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/monitor.dir
+
+# All Build rule for target.
+CMakeFiles/monitor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=21,22 "Built target monitor"
+.PHONY : CMakeFiles/monitor.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/monitor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/monitor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/monitor.dir/rule
+
+# Convenience name for target.
+monitor: CMakeFiles/monitor.dir/rule
+.PHONY : monitor
+
+# clean rule for target.
+CMakeFiles/monitor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monitor.dir/build.make CMakeFiles/monitor.dir/clean
+.PHONY : CMakeFiles/monitor.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/locker.dir
+
+# All Build rule for target.
+CMakeFiles/locker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/locker.dir/build.make CMakeFiles/locker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/locker.dir/build.make CMakeFiles/locker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=19,20 "Built target locker"
+.PHONY : CMakeFiles/locker.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/locker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/locker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/locker.dir/rule
+
+# Convenience name for target.
+locker: CMakeFiles/locker.dir/rule
+.PHONY : locker
+
+# clean rule for target.
+CMakeFiles/locker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/locker.dir/build.make CMakeFiles/locker.dir/clean
+.PHONY : CMakeFiles/locker.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/deleterByKey.dir
+
+# All Build rule for target.
+CMakeFiles/deleterByKey.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deleterByKey.dir/build.make CMakeFiles/deleterByKey.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deleterByKey.dir/build.make CMakeFiles/deleterByKey.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=7,8 "Built target deleterByKey"
+.PHONY : CMakeFiles/deleterByKey.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/deleterByKey.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/deleterByKey.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/deleterByKey.dir/rule
+
+# Convenience name for target.
+deleterByKey: CMakeFiles/deleterByKey.dir/rule
+.PHONY : deleterByKey
+
+# clean rule for target.
+CMakeFiles/deleterByKey.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deleterByKey.dir/build.make CMakeFiles/deleterByKey.dir/clean
+.PHONY : CMakeFiles/deleterByKey.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/backup.dir
+
+# All Build rule for target.
+CMakeFiles/backup.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backup.dir/build.make CMakeFiles/backup.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backup.dir/build.make CMakeFiles/backup.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=1,2 "Built target backup"
+.PHONY : CMakeFiles/backup.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/backup.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/backup.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/backup.dir/rule
+
+# Convenience name for target.
+backup: CMakeFiles/backup.dir/rule
+.PHONY : backup
+
+# clean rule for target.
+CMakeFiles/backup.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backup.dir/build.make CMakeFiles/backup.dir/clean
+.PHONY : CMakeFiles/backup.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/restorer.dir
+
+# All Build rule for target.
+CMakeFiles/restorer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/restorer.dir/build.make CMakeFiles/restorer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/restorer.dir/build.make CMakeFiles/restorer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=33,34 "Built target restorer"
+.PHONY : CMakeFiles/restorer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/restorer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/restorer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/restorer.dir/rule
+
+# Convenience name for target.
+restorer: CMakeFiles/restorer.dir/rule
+.PHONY : restorer
+
+# clean rule for target.
+CMakeFiles/restorer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/restorer.dir/build.make CMakeFiles/restorer.dir/clean
+.PHONY : CMakeFiles/restorer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/searcher.dir
+
+# All Build rule for target.
+CMakeFiles/searcher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searcher.dir/build.make CMakeFiles/searcher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searcher.dir/build.make CMakeFiles/searcher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=35,36 "Built target searcher"
+.PHONY : CMakeFiles/searcher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/searcher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/searcher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/searcher.dir/rule
+
+# Convenience name for target.
+searcher: CMakeFiles/searcher.dir/rule
+.PHONY : searcher
+
+# clean rule for target.
+CMakeFiles/searcher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searcher.dir/build.make CMakeFiles/searcher.dir/clean
+.PHONY : CMakeFiles/searcher.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/initializerQueue.dir
+
+# All Build rule for target.
+CMakeFiles/initializerQueue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializerQueue.dir/build.make CMakeFiles/initializerQueue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializerQueue.dir/build.make CMakeFiles/initializerQueue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles --progress-num=17,18 "Built target initializerQueue"
+.PHONY : CMakeFiles/initializerQueue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/initializerQueue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/initializerQueue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim-oanh/Documents/LTHT/DACK/shared_memory_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/initializerQueue.dir/rule
+
+# Convenience name for target.
+initializerQueue: CMakeFiles/initializerQueue.dir/rule
+.PHONY : initializerQueue
+
+# clean rule for target.
+CMakeFiles/initializerQueue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/initializerQueue.dir/build.make CMakeFiles/initializerQueue.dir/clean
+.PHONY : CMakeFiles/initializerQueue.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
